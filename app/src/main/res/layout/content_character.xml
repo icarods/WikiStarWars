@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20px"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Character"
+    tools:showIn="@layout/activity_character">
+
+    <TextView
+        android:id="@+id/height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="height"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/height"
+        android:text="mass"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/hair_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mass"
+        android:text="hair_color"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/skin_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hair_color"
+        android:text="skin_color"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/eye_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/skin_color"
+        android:text="eye_color"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/birth_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eye_color"
+        android:text="birth_year"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/birth_year"
+        android:text="gender"
+        android:textStyle="bold" />
+
+</RelativeLayout>
